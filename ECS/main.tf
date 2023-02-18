@@ -5,8 +5,6 @@ resource "aws_ecr_repository" "ecr_repo_4_centos" {
   image_tag_mutability = "MUTABLE"
 }
 
-
-
 # Pulls the image
 resource "docker_image" "centos" {
   name = "centos:latest"

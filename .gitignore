@@ -32,3 +32,4 @@ override.tf.json
 # Terraform state lock files
 .terraform.lock.hcl
 *.terraform.*.*
+*.terraform.lock.hcl
